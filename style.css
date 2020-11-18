@@ -1,0 +1,121 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #495678;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 207px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navimenu {
+  position: absolute;
+  display: block;
+  left: 300px;
+}
+.naslov {
+  display: flax;
+  align-content: flex-start;
+  position: absolute;
+  left: 500px;
+  top: 70px;
+}
+.tekst {
+  background-color: #495678;
+  display: flx;
+  align-content: flex-start;
+  position: absolute;
+  font: bold;
+  top: 200px;
+  margin: 0pt;
+  left: 400px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.ceo {
+  background-color: #495678;
+  height: auto;
+  width: auto;
+  margin: 0px;
+}
+.baner_levo {
+  background-image: url(./img/baner.jpg);
+  left: 500px;
+
+  width: 250px;
+  height: 1050px;
+}
+#tabela_prvi {
+  width: 800px;
+}
+.prof {
+  font-size: x-large;
+  text-shadow: white -5px -5px;
+}
+.dan {
+  background-image: linear-gradient(to right, black, white, black);
+  font-size: 20pt;
+  background: -webkit-linear-gradient(black, white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#naslovna {
+  text-shadow: cyan 1px 0px;
+}
+
+#naslovna:hover {
+  color: white;
+  background: cyan;
+  cursor: grabbing;
+}
